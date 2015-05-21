@@ -17,13 +17,15 @@ body{
 .navbar-brand {
     font-size: 14px;
     font-weight: bold;
+    vertical-align: middle;
     height: 16px;
     line-height: 14px;
     padding: 5px 15px;
 }
 .navbar-nav > li > a {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
+    vertical-align: middle;
     line-height: 14px;
     padding-bottom: 5px;
     padding-top: 5px;
@@ -36,7 +38,7 @@ body{
     height: 75px;
 }
 #student_description h1{
-    font-size: 24px;
+    font-size: 34px;
 }
 #student_description h1,
 #portfolio_content h4{
@@ -73,6 +75,12 @@ body{
 .git-icon{
     background: url('../img/github.png');
     display: inline-block;
-    height: 11px;
-    width: 12px;
+    height: 13px;
+    width: 14px;
+}
+.linkedin-icon{
+    background: url('../img/linkedin_logo.png');
+    display: inline-block;
+    height: 13px;
+    width: 14px;
 }
